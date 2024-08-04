@@ -1,0 +1,33 @@
+# Security as Code: Transforming Security in Software Development
+
+Recently, I've read many articles and case studies about Security as Code (SaC). These insights inspired me to write this article to share what I've learned and explain why SaC is so important in modern software development.
+
+## Why "As Code"?
+
+When we say "as code," we mean scripts, policies, IaC, etc. It means turning tasks that people used to do by hand into automated processes. Here’s why that’s useful:
+
+1. **Automating Security Measures**: Security steps are written as code, allowing them to be automated. This automation helps in consistently applying security checks and updates, reducing human errors and ensuring that security practices are always up-to-date.
+
+2. **Consistent Application**: By coding security measures, they can be applied in a standard, repeatable way. This ensures that the same security practices are enforced uniformly across different stages and components of the software, reducing the risk of oversights and errors.
+
+3. **Audit and Version Control**: Security configurations stored as code can be version-controlled, allowing for tracking changes over time. This provides transparency and accountability, making it easier to audit and review security measures.
+
+## How It Fits into Software Development
+
+Security as Code fits neatly into the software development process, bringing several benefits:
+
+1. **Early Problem Detection**: SaC supports integrating security steps from the start of software development, problems can be found and fixed early, before the software is finished. This prevents issues from becoming bigger problems later on.
+
+2. **Continuous Monitoring**: Security as Code allows for ongoing checks, making sure everything stays secure all the time, not just during occasional reviews.
+
+3. **Shared Responsibility**: SaC involves developers directly in managing security by implementing security steps in their daily tasks, ensuring a unified security strategy. This approach not only enhances overall security but also makes every developer a guardian of security.
+
+4. **Automated Remediation**: By automating security measures and integrating them into the development pipeline, SaC can help in the automatic remediation of identified issues.
+
+### Example from Netflix
+
+[Example from Netflix](https://lnkd.in/gKTtsuYw)
+
+## Conclusion
+
+Security as Code is more than just a trendy buzzword. It represents a significant change in how security is integrated into software development. By automating and coding security measures, it ensures that security is proactive and consistent throughout the entire SDLC.
