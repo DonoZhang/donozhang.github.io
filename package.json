@@ -1,5 +1,17 @@
 {
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "A simple blog using GitHub Pages",
+  "main": "template-generator.js",
+  "scripts": {
+    "start": "http-server -c-1",
+    "generate-article": "node template-generator.js"
+  },
   "dependencies": {
+    "http-server": "^0.12.3",
+    "marked": "^3.0.0",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "author": "Dapeng Zhang",
+  "license": "MIT"
 }
